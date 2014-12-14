@@ -1,5 +1,4 @@
-path-search
-===========
+# path-search [![npm version](http://img.shields.io/npm/v/path-search.svg?style=flat-square)](https://www.npmjs.org/package/path-search)
 
 > Search files in a path array.
 
