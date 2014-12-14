@@ -1,0 +1,33 @@
+{
+  "name": "path-search",
+  "version": "1.0.0",
+  "description": "Search files in a path array.",
+
+  "license": {
+    "type": "Unlicense",
+    "url": "http://unlicense.org/"
+  },
+
+  "author": {
+    "name": "Valérian Galliat",
+    "url": "http://val.codejam.info/"
+  },
+
+  "homepage": "https://github.com/themeleon/path-search",
+  "bugs": "https://github.com/themeleon/path-search/issues",
+
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/themeleon/path-search.git"
+  },
+
+  "devDependencies": {
+    "eslint": "^0.10.2",
+    "mocha": "^2.0.1"
+  },
+
+  "scripts": {
+    "lint": "eslint .",
+    "test": "$npm_package_scripts_lint && mocha test"
+  }
+}
