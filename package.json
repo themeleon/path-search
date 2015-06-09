@@ -14,11 +14,11 @@
     "url": "https://github.com/themeleon/path-search.git"
   },
   "devDependencies": {
-    "eslint": "^0.10.2",
-    "mocha": "^2.0.1"
+    "mocha": "^2.0.1",
+    "standard": "^4.0.1"
   },
   "scripts": {
-    "lint": "eslint .",
-    "test": "$npm_package_scripts_lint && mocha test"
+    "lint": "standard",
+    "test": "npm run lint && mocha test"
   }
 }
